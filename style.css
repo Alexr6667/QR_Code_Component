@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh);
 }
 
 .container {
@@ -52,11 +52,22 @@ body {
 .title {
     padding: 1rem;
     font-size: 1.75rem;
+    font-weight: var(--fs-700);
+    color: var(--title-color);
 }
 
 .main-text {
     color: var(--main-text-color);
     padding: 0.5rem 1.5rem 1.5rem;
-    font-size: 1.125rem;
+    font-size: var(--fs-main-text);
+    font-weight: var(--fs-700);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
