@@ -30,7 +30,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: calc(100vh);
+    height: 100vh;
 }
 
 .container {
@@ -62,12 +62,3 @@ body {
     font-size: var(--fs-main-text);
     font-weight: var(--fs-700);
 }
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-  }
-
-  .attribution a {
-    color: hsl(228, 45%, 44%);
-  }
